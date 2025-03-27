@@ -1,0 +1,22 @@
+# Introdução
+```{r}
+
+```
+
+Este livro contém os resumos dos trabalhos realizados durante a 6ª EcoEscola. 
+   Esta é a primeira iniciativa de organização dos resumos. Pretendemos que este
+   material sirva de duas formas. Para apresentar os projetos realizados durante
+   o módulo prático da EcoEscola, e que sirva como fonte de inspiração para projetos
+   rápidos (duas semanas) que envolvam coleta, análise e interpretação de dados.
+   Pretendemos que este material também sirva para professores e educadores de 
+   ensino superior e médio para fornecer possíveis atividades práticas que possam
+   ser utilizadas em aulas de ensino de Ecologia para nível médio e superior.
+   
+## A EcoEscola
+
+Descrever o que é a ecoescola
+
+## Ensino por investigação
+
+## Os projetos 
+

@@ -36,46 +36,6 @@
   \KOMAoptions{parskip=half}}
 \makeatother
 \usepackage{xcolor}
-\usepackage{color}
-\usepackage{fancyvrb}
-\newcommand{\VerbBar}{|}
-\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
-\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
-% Add ',fontsize=\small' for more characters per line
-\usepackage{framed}
-\definecolor{shadecolor}{RGB}{248,248,248}
-\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
-\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
-\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
-\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
-\newcommand{\BuiltInTok}[1]{#1}
-\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
-\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
-\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
-\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
-\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
-\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
-\newcommand{\ExtensionTok}[1]{#1}
-\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
-\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
-\newcommand{\ImportTok}[1]{#1}
-\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
-\newcommand{\NormalTok}[1]{#1}
-\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
-\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
-\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
-\newcommand{\RegionMarkerTok}[1]{#1}
-\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
-\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
-\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
 \usepackage{longtable,booktabs,array}
 \usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
@@ -113,32 +73,15 @@
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \urlstyle{same}
 \hypersetup{
-  pdftitle={A Minimal Book Example},
-  pdfauthor={John Doe},
+  pdftitle={6ª EcoEscola: livro de resumos},
+  pdfauthor={Gabriel Nakamura},
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
 
-\title{A Minimal Book Example}
-\author{John Doe}
+\title{6ª EcoEscola: livro de resumos}
+\author{Gabriel Nakamura}
 \date{2025-03-26}
 
-\usepackage{amsthm}
-\newtheorem{theorem}{Theorem}[chapter]
-\newtheorem{lemma}{Lemma}[chapter]
-\newtheorem{corollary}{Corollary}[chapter]
-\newtheorem{proposition}{Proposition}[chapter]
-\newtheorem{conjecture}{Conjecture}[chapter]
-\theoremstyle{definition}
-\newtheorem{definition}{Definition}[chapter]
-\theoremstyle{definition}
-\newtheorem{example}{Example}[chapter]
-\theoremstyle{definition}
-\newtheorem{exercise}{Exercise}[chapter]
-\theoremstyle{definition}
-\newtheorem{hypothesis}{Hypothesis}[chapter]
-\theoremstyle{remark}
-\newtheorem*{remark}{Remark}
-\newtheorem*{solution}{Solution}
 \begin{document}
 \maketitle
 
@@ -146,234 +89,87 @@
 \setcounter{tocdepth}{1}
 \tableofcontents
 }
-\chapter{About}\label{about}
+\chapter{Sobre}\label{sobre}
 
-This is a \emph{sample} book written in \textbf{Markdown}. You can use anything that Pandoc's Markdown supports; for example, a math equation \(a^2 + b^2 = c^2\).
+Este livro contém os resumos dos projetos realizados durante a 6ª EcoEscola
 
-\section{Usage}\label{usage}
+\includegraphics{figs/ecoescolalogo.png}
 
-Each \textbf{bookdown} chapter is an .Rmd file, and each .Rmd file can contain one (and only one) chapter. A chapter \emph{must} start with a first-level heading: \texttt{\#\ A\ good\ chapter}, and can contain one (and only one) first-level heading.
+\chapter{Introdução}\label{introduuxe7uxe3o}
 
-Use second-level and higher headings within chapters like: \texttt{\#\#\ A\ short\ section} or \texttt{\#\#\#\ An\ even\ shorter\ section}.
+Este livro contém os resumos dos trabalhos realizados durante a 6ª EcoEscola.
+Esta é a primeira iniciativa de organização dos resumos. Pretendemos que este
+material sirva de duas formas. Para apresentar os projetos realizados durante
+o módulo prático da EcoEscola, e que sirva como fonte de inspiração para projetos
+rápidos (duas semanas) que envolvam coleta, análise e interpretação de dados.
+Pretendemos que este material também sirva para professores e educadores de
+ensino superior e médio para fornecer possíveis atividades práticas que possam
+ser utilizadas em aulas de ensino de Ecologia para nível médio e superior.
 
-The \texttt{index.Rmd} file is required, and is also your first book chapter. It will be the homepage when you render the book.
+\section{A EcoEscola}\label{a-ecoescola}
 
-\section{Render book}\label{render-book}
+Descrever o que é a ecoescola
 
-You can render the HTML version of this example book without changing anything:
+\section{Ensino por investigação}\label{ensino-por-investigauxe7uxe3o}
 
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\item
-  Find the \textbf{Build} pane in the RStudio IDE, and
-\item
-  Click on \textbf{Build Book}, then select your output format, or select ``All formats'' if you'd like to use multiple formats from the same book source files.
-\end{enumerate}
+\section{Os projetos}\label{os-projetos}
 
-Or build the book from the R console:
+\chapter{\texorpdfstring{Cobertura e dominância de samambaias epífitas em \emph{Tipuana tipu}}{Cobertura e dominância de samambaias epífitas em Tipuana tipu}}\label{cobertura-e-dominuxe2ncia-de-samambaias-epuxedfitas-em-tipuana-tipu}
 
-\begin{Shaded}
-\begin{Highlighting}[]
-\NormalTok{bookdown}\SpecialCharTok{::}\FunctionTok{render\_book}\NormalTok{()}
-\end{Highlighting}
-\end{Shaded}
+\begin{quote}
+Grupo 1: Francelino, A.C., Ribeiro, C.F.F., Santos, G.P., Batista, L.R.C., Bergmann, M.A.~e Cirino, D.W.
+\end{quote}
 
-To render this example to PDF as a \texttt{bookdown::pdf\_book}, you'll need to install XeLaTeX. You are recommended to install TinyTeX (which includes XeLaTeX): \url{https://yihui.org/tinytex/}.
+\begin{quote}
+Orientador: Douglas William Cirino
+\end{quote}
 
-\section{Preview book}\label{preview-book}
+Plantas pteridófitas utilizam árvores como forófitos, representando uma interação interespecífica neutra, onde não há prejuízos à planta hospedeira. Nessa interação, o espaço nos galhos do forófito é um importante recurso, gerando competição entre epífitas, com cenários de dominância ou coexistência, a depender do ambiente. O objetivo deste trabalho foi compreender se há relação dos microclimas com a cobertura e a coexistência de pteridófitas epífitas no forófito Tipuana tipu (Benth.) Kuntze. Nossa hipótese é que a dominância da epífita Microgramma sp. em relação a outras pteridófitas é menor em cenários de microclima mais favorável. Além disso, supomos que quanto maior o índice de vegetação maior será a cobertura vegetal total de epífitas nos galhos de Tipuana tipu. Amostramos 40 indivíduos do forófito sob diferentes condições microclimáticas.. Fotografamos quadrantes de 50x50 cm, a diferentes alturas na face sul de cada Tipuana tipu (Benth.) Kuntze. Estimamos as áreas de cobertura de três morfotipos de pteridófitas mais comuns. Calculamos a dominância de Microgramma sp. sobre outras epífitas como uma proporção da área total coberta por (NDVI) utilizando ortofotos de 1m de resolução e medimos o NDVI médio dentro de buffers de 25, 50 e 100m de raio a partir do forófito. Testamos nossas hipóteses utilizando a função betareg do software R (V 4.4.2). Nosso resultado demonstra que quanto maior a média do NDVI nos buffers de 25 e 50m menor será a dominância da Microgramma sp. (p=0,010 e p=0,026, respectivamente), corroborando nossa hipótese, enquanto não houve diferença estatística no buffer de 100m (p=0,153). Adicionalmente, não houve relação estatística entre o NDVI e a cobertura das epífitas (p\textgreater0,05). Isso pode indicar que o microclima pode não ser o fator principal influenciando essa ocupação, refutando nossa segunda hipótese. Por outro lado, pudemos confirmar que o microclima é preponderante na dominância de Microgramma sp. sobre as outras samambaias epífitas, uma vez que em raios menores o efeito é significativo e em raios de 100m o efeito desaparece. Estudos anteriores afirmam que a interação entre epífitas com diferentes formas de dispersão pode ser negativa1, Microgramma sp. é a única epífita trepadeira amostrada, podendo ser dominante, mas em microclimas mais favoráveis a competição pode ser mais intensa.. Como hipótese a posteriori, corroboramos que quanto maior a altura da amostra no forófito maior será a cobertura de epífitas (p=0,001), como já observado anteriormente².. Os resultados obtidos auxiliam a compreender como o microclima pode influenciar na dominância entre as pteridófitas epífitas, e entender fatores que alteraram o epifitismo e competição.
 
-As you work, you may start a local server to live preview this HTML book. This preview will update as you edit the book when you save individual .Rmd files. You can start the server in a work session by using the RStudio add-in ``Preview book'', or from the R console:
+\textbf{Palavras-chave:} Coexistência; microclima; Microgramma sp; pteridófitas epífitas
 
-\begin{Shaded}
-\begin{Highlighting}[]
-\NormalTok{bookdown}\SpecialCharTok{::}\FunctionTok{serve\_book}\NormalTok{()}
-\end{Highlighting}
-\end{Shaded}
+\chapter{Efeito da paisagem na comunidade de Euglossini em diferentes fragmentos}\label{efeito-da-paisagem-na-comunidade-de-euglossini-em-diferentes-fragmentos}
 
-\chapter{Hello bookdown}\label{hello-bookdown}
+\begin{quote}
+Allesson Neves; Everton Juvino; Fabiane Willes; Ingrid Neumann; Tainá Ferreira
+\end{quote}
 
-All chapters start with a first-level heading followed by your chapter title, like the line above. There should be only one first-level heading (\texttt{\#}) per .Rmd file.
+\begin{quote}
+Orientador: Eduardo Moreira
+\end{quote}
 
-\section{A section}\label{a-section}
+A composição da paisagem influencia diretamente a diversidade biológica. Em paisagens complexas, espera-se maior diversidade de nichos, o que favorece a coexistência de diferentes espécies. Cenários mais heterogêneos também oferecem mais opções de abrigo e refúgio. A diversidade da tribo Euglossini, fundamental para a polinização, é afetada por variáveis estruturais da paisagem, que influenciam tanto a disponibilidade de recursos quanto a dinâmica populacional das espécies. Esse grupo, com distribuição vertical heterogênea, é considerado um bom indicador da diversidade e complexidade da paisagem devido aos seus diversos modos de vida. Este estudo investigou a relação entre a heterogeneidade ambiental, a proporção de vegetação e a abundância e riqueza de Euglossini, com a hipótese de que paisagens mais heterogêneas e vegetadas favorecem maior diversidade. As coletas foram realizadas com armadilhas de cheiro contendo eucaliptol, distribuídas em 14 pontos ao longo de um gradiente de composições de paisagem na Universidade de São Paulo - Campus Butantã e arredores, entre 07 e 10 de fevereiro de 2025. As abelhas foram triadas e identificadas até o nível de espécie. A análise da paisagem foi realizada por meio de imagens de satélite (Sentinel 1, Sentinel 2 e Alos Palsar), classificadas utilizando o algoritmo Random Forest. Para a análise, foram utilizados o índice de Shannon-Wiener e a proporção de vegetação. Modelos de regressão linear foram desenvolvidos, com riqueza e abundância de Euglossini como variáveis resposta, e o índice de Shannon e a proporção de vegetação como variáveis explicativas. Foram capturados 198 indivíduos, distribuídos nos gêneros Eulaema (125 indivíduos), Euglossa (71) e Exaerete (2), totalizando 10 espécies, sendo as mais representativas Eulaema nigrita (63,13\%), Euglossa carolina (17,17\%) e Euglossa solangeae (15,15\%). Embora os modelos de regressão não tenham mostrado valores de p significativos, observou-se uma tendência de aumento na riqueza e abundância de Euglossini em locais com maior proporção de vegetação. Este estudo destaca a
+importância de avaliar o impacto das alterações na paisagem sobre a riqueza de espécies. Estudos com mais eventos amostrais e por períodos mais longos são necessários para fortalecer os resultados.
 
-All chapter sections start with a second-level (\texttt{\#\#}) or higher heading followed by your section title, like the sections above and below here. You can have as many as you want within a chapter.
+\textbf{Palavras-chave}: Heterogeneidade; Diversidade de polinizadores; Composição; Estrutura da paisagem; Métricas espaciais;
 
-\subsection*{An unnumbered section}\label{an-unnumbered-section}
-\addcontentsline{toc}{subsection}{An unnumbered section}
+\chapter{O efeito da disponibilidade de recursos na distribuição de galhas foliares}\label{o-efeito-da-disponibilidade-de-recursos-na-distribuiuxe7uxe3o-de-galhas-foliares}
 
-Chapters and sections are numbered by default. To un-number a heading, add a \texttt{\{.unnumbered\}} or the shorter \texttt{\{-\}} at the end of the heading, like in this section.
+\begin{quote}
+Ana Clara Reis Duarte Magalhães¹, Bianca de Araújo Ortiz2, Carmen Morais de Gusmão da Bôaviagem³, Gabriel Henrique Bettiol4 e Jesus Eduardo Guerra Sarmiento5
+\end{quote}
 
-\chapter{Cross-references}\label{cross}
+\begin{quote}
+Orientador: Miguel Piovesana Pereira-Romeiro
+\end{quote}
 
-Cross-references make it easier for your readers to find and link to elements in your book.
+A disponibilidade de recursos pode influenciar a distribuição espacial dos seres vivos em diferentes escalas. Folhas podem ser encaradas como microhabitats heterogêneos, apresentando variação na disponibilidade de recursos alimentares. Insetos galhadores dependem dos recursos da folha (seiva) e, portanto, devem selecionar seu local de fixação a partir deste sinal. Temos como objetivo compreender o papel da disponibilidade de recursos na distribuição de galhas foliares. Esperamos que haja preferência pela base da nervura central (BNC) por ser uma região de maior concentração de seiva (tanto bruta quanto elaborada) quando comparado com outras regiões inervadas. Coletamos 30 folhas galhadas de 12 indivíduos (N=360) de Lauraceae na Rua do Matão (USP-Butantã). Subamostramos 77 folhas e quantificamos (I) a área de nervuras, (II) área da BNC e a presença de galhas (III) nas nervuras e (IV) da BNC. Para verificar a preferência de insetos galhadores pela BNC, realizamos um teste de Qui-Quadrado de aderência para comparar a frequência observada de folhas com galhas na BNC contra a frequência esperada. Para obter o número esperado de folhas com galhas na BNC e também nas demais nervuras, multiplicamos as médias das proporções da área da BNC e da área das demais nervuras pelo número de amostras, respectivamente. Observamos 5 folhas com galhas na BNC (esperado = 6,09) e 77 com galhas nas demais nervuras (esperado = 70,9). Não houve preferência das galhas pela BNC em relação às demais nervuras da folha (X²=0,37; p=0,054). Ainda que a BNC possua maior quantidade de recursos, sua área disponível é significativamente menor e, portanto, podemos esperar que ela rapidamente atinja uma capacidade de suporte. É possível que as ninfas prefiram selecionar outras nervuras da folha para evitar a competição por espaço e recurso na BNC às custas de recursos reduzidos. Alternativamente, é possível que a oviposição aconteça quando as folhas ainda são jovens. Neste estágio, as nervuras do ápice foliar estão mais maduras que as da BNC.
 
-\section{Chapters and sub-chapters}\label{chapters-and-sub-chapters}
+\textbf{Palavras-chave}: Psylloidae; nervação foliar; parasitismo; interação inseto-planta; Lauraceae
 
-There are two steps to cross-reference any heading:
+\chapter{A influência da escolha do recurso alimentar sobre o fitness em besouros brocadores}\label{a-influuxeancia-da-escolha-do-recurso-alimentar-sobre-o-fitness-em-besouros-brocadores}
 
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\tightlist
-\item
-  Label the heading: \texttt{\#\ Hello\ world\ \{\#nice-label\}}.
+\begin{quote}
+Beatriz M. Maenaka, Gabriel R. Silva, Helena Gallindo, Isabel Alves, e Lucas Melquiades, Lucas Freitas
+\end{quote}
 
-  \begin{itemize}
-  \tightlist
-  \item
-    Leave the label off if you like the automated heading generated based on your heading title: for example, \texttt{\#\ Hello\ world} = \texttt{\#\ Hello\ world\ \{\#hello-world\}}.
-  \item
-    To label an un-numbered heading, use: \texttt{\#\ Hello\ world\ \{-\#nice-label\}} or \texttt{\{\#\ Hello\ world\ .unnumbered\}}.
-  \end{itemize}
-\item
-  Next, reference the labeled heading anywhere in the text using \texttt{\textbackslash{}@ref(nice-label)}; for example, please see Chapter \ref{cross}.
+\begin{quote}
+Orientador: Lucas Freitas e Gabriel Nakamuram
+\end{quote}
 
-  \begin{itemize}
-  \tightlist
-  \item
-    If you prefer text as the link instead of a numbered reference use: \hyperref[cross]{any text you want can go here}.
-  \end{itemize}
-\end{enumerate}
+Os organismos são selecionados para otimizar a obtenção de energia e minimizar os custos associados à manipulação de recursos, aumentando as chances de sobrevivência e sucesso reprodutivo. Os besouros brocadores (e.g., Bruchidae) possuem um ciclo de vida parasitoide, colocando ovos na superfície externa de frutos, que fornecem abrigo e nutrientes para o desenvolvimento das larvas. Ao eclodirem, as larvas deixam cavidades circulares na superfície do fruto. Este estudo testou como a escolha de recursos alimentares afeta a aptidão da prole. Segundo a teoria de forrageamento ótimo, esperamos que larvas com maior aptidão estejam associadas a frutos com mais recursos, enquanto larvas com menor aptidão seriam associadas a frutos com maior custo energético de manipulação. Para testar essa hipótese, coletamos frutos caídos ao redor das palmeiras do Jardim Japonês da USP. Medimos o volume dos frutos com paquímetro (precisão de 0,01 mm), utilizando a fórmula do cilindro, e a espessura da casca para quantificar o custo de manipulação. Como medida de aptidão, analisamos o diâmetro da cavidade de saída das larvas. Trabalhamos com 100 frutos, e para evitar efeitos de confusão devido ao uso compartilhado do recurso por diferentes espécies, visualizamos a distribuição do diâmetro das cavidades com um histograma. Ao identificar uma distribuição bimodal, excluímos frutos com cavidades menores que 2,5 mm (n = 16), assumindo que pertenciam a outra espécie de besouro. Os frutos com cavidades maiores ou iguais a 2,5 mm (n = 84) foram analisados. Testamos os efeitos do volume do fruto e da espessura da casca sobre o diâmetro da cavidade de saída das larvas com regressões lineares. O volume do fruto influenciou positivamente a aptidão (R² = 10,03\%, p = 0,01, coeficiente angular = 0.12), mas a espessura da casca não teve efeito significativo (R² = -0,001\%, p = 0,35, coeficiente angular = -0.05), indicando que o custo de manipulação da casca não limita a aptidão. Não encontramos interação significativa entre volume e espessura da casca (R² = 11,57\%, p = 0,02), destacando a importância da quantidade de recursos na aptidão das larvas. Nossos resultados indicam que o sucesso reprodutivo dos besouros brocadores está relacionado com a disponibilidade de recursos nos frutos, e a baixa importância da espessura da casca sugere que fatores ambientais, como a quantidade de frutos ou a presença de ovos de outros indivíduos, também influenciam a escolha do local de desova.
 
-\section{Captioned figures and tables}\label{captioned-figures-and-tables}
-
-Figures and tables \emph{with captions} can also be cross-referenced from elsewhere in your book using \texttt{\textbackslash{}@ref(fig:chunk-label)} and \texttt{\textbackslash{}@ref(tab:chunk-label)}, respectively.
-
-See Figure \ref{fig:nice-fig}.
-
-\begin{Shaded}
-\begin{Highlighting}[]
-\FunctionTok{par}\NormalTok{(}\AttributeTok{mar =} \FunctionTok{c}\NormalTok{(}\DecValTok{4}\NormalTok{, }\DecValTok{4}\NormalTok{, .}\DecValTok{1}\NormalTok{, .}\DecValTok{1}\NormalTok{))}
-\FunctionTok{plot}\NormalTok{(pressure, }\AttributeTok{type =} \StringTok{\textquotesingle{}b\textquotesingle{}}\NormalTok{, }\AttributeTok{pch =} \DecValTok{19}\NormalTok{)}
-\end{Highlighting}
-\end{Shaded}
-
-\begin{figure}
-
-{\centering \includegraphics[width=0.8\linewidth]{_main_files/figure-latex/nice-fig-1} 
-
-}
-
-\caption{Here is a nice figure!}\label{fig:nice-fig}
-\end{figure}
-
-Don't miss Table \ref{tab:nice-tab}.
-
-\begin{Shaded}
-\begin{Highlighting}[]
-\NormalTok{knitr}\SpecialCharTok{::}\FunctionTok{kable}\NormalTok{(}
-  \FunctionTok{head}\NormalTok{(pressure, }\DecValTok{10}\NormalTok{), }\AttributeTok{caption =} \StringTok{\textquotesingle{}Here is a nice table!\textquotesingle{}}\NormalTok{,}
-  \AttributeTok{booktabs =} \ConstantTok{TRUE}
-\NormalTok{)}
-\end{Highlighting}
-\end{Shaded}
-
-\begin{table}
-
-\caption{\label{tab:nice-tab}Here is a nice table!}
-\centering
-\begin{tabular}[t]{rr}
-\toprule
-temperature & pressure\\
-\midrule
-0 & 0.0002\\
-20 & 0.0012\\
-40 & 0.0060\\
-60 & 0.0300\\
-80 & 0.0900\\
-\addlinespace
-100 & 0.2700\\
-120 & 0.7500\\
-140 & 1.8500\\
-160 & 4.2000\\
-180 & 8.8000\\
-\bottomrule
-\end{tabular}
-\end{table}
-
-\chapter{Parts}\label{parts}
-
-You can add parts to organize one or more book chapters together. Parts can be inserted at the top of an .Rmd file, before the first-level chapter heading in that same file.
-
-Add a numbered part: \texttt{\#\ (PART)\ Act\ one\ \{-\}} (followed by \texttt{\#\ A\ chapter})
-
-Add an unnumbered part: \texttt{\#\ (PART\textbackslash{}*)\ Act\ one\ \{-\}} (followed by \texttt{\#\ A\ chapter})
-
-Add an appendix as a special kind of un-numbered part: \texttt{\#\ (APPENDIX)\ Other\ stuff\ \{-\}} (followed by \texttt{\#\ A\ chapter}). Chapters in an appendix are prepended with letters instead of numbers.
-
-\chapter{Footnotes and citations}\label{footnotes-and-citations}
-
-\section{Footnotes}\label{footnotes}
-
-Footnotes are put inside the square brackets after a caret \texttt{\^{}{[}{]}}. Like this one \footnote{This is a footnote.}.
-
-\section{Citations}\label{citations}
-
-Reference items in your bibliography file(s) using \texttt{@key}.
-
-For example, we are using the \textbf{bookdown} package \citep{R-bookdown} (check out the last code chunk in index.Rmd to see how this citation key was added) in this sample book, which was built on top of R Markdown and \textbf{knitr} \citep{xie2015} (this citation was added manually in an external file book.bib).
-Note that the \texttt{.bib} files need to be listed in the index.Rmd with the YAML \texttt{bibliography} key.
-
-The RStudio Visual Markdown Editor can also make it easier to insert citations: \url{https://rstudio.github.io/visual-markdown-editing/\#/citations}
-
-\chapter{Blocks}\label{blocks}
-
-\section{Equations}\label{equations}
-
-Here is an equation.
-
-\begin{equation} 
-  f\left(k\right) = \binom{n}{k} p^k\left(1-p\right)^{n-k}
-  \label{eq:binom}
-\end{equation}
-
-You may refer to using \texttt{\textbackslash{}@ref(eq:binom)}, like see Equation \eqref{eq:binom}.
-
-\section{Theorems and proofs}\label{theorems-and-proofs}
-
-Labeled theorems can be referenced in text using \texttt{\textbackslash{}@ref(thm:tri)}, for example, check out this smart theorem \ref{thm:tri}.
-
-\begin{theorem}
-\protect\hypertarget{thm:tri}{}\label{thm:tri}For a right triangle, if \(c\) denotes the \emph{length} of the hypotenuse
-and \(a\) and \(b\) denote the lengths of the \textbf{other} two sides, we have
-\[a^2 + b^2 = c^2\]
-\end{theorem}
-
-Read more here \url{https://bookdown.org/yihui/bookdown/markdown-extensions-by-bookdown.html}.
-
-\section{Callout blocks}\label{callout-blocks}
-
-The R Markdown Cookbook provides more help on how to use custom blocks to design your own callouts: \url{https://bookdown.org/yihui/rmarkdown-cookbook/custom-blocks.html}
-
-\chapter{Sharing your book}\label{sharing-your-book}
-
-\section{Publishing}\label{publishing}
-
-HTML books can be published online, see: \url{https://bookdown.org/yihui/bookdown/publishing.html}
-
-\section{404 pages}\label{pages}
-
-By default, users will be directed to a 404 page if they try to access a webpage that cannot be found. If you'd like to customize your 404 page instead of using the default, you may add either a \texttt{\_404.Rmd} or \texttt{\_404.md} file to your project root and use code and/or Markdown syntax.
-
-\section{Metadata for sharing}\label{metadata-for-sharing}
-
-Bookdown HTML books will provide HTML metadata for social sharing on platforms like Twitter, Facebook, and LinkedIn, using information you provide in the \texttt{index.Rmd} YAML. To setup, set the \texttt{url} for your book and the path to your \texttt{cover-image} file. Your book's \texttt{title} and \texttt{description} are also used.
-
-This \texttt{gitbook} uses the same social sharing data across all chapters in your book- all links shared will look the same.
-
-Specify your book's source repository on GitHub using the \texttt{edit} key under the configuration options in the \texttt{\_output.yml} file, which allows users to suggest an edit by linking to a chapter's source file.
-
-Read more about the features of this output format here:
-
-\url{https://pkgs.rstudio.com/bookdown/reference/gitbook.html}
-
-Or use:
-
-\begin{Shaded}
-\begin{Highlighting}[]
-\NormalTok{?bookdown}\SpecialCharTok{::}\NormalTok{gitbook}
-\end{Highlighting}
-\end{Shaded}
-
+\textbf{Palavras-chave}: Besouro brocador; trade-off; esforço de manipulação; fitness; forrageamento ótimo.
 
   \bibliography{book.bib,packages.bib}
 
