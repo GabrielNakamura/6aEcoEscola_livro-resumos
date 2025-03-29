@@ -23,17 +23,22 @@ Desde o seu princípio a EcoEscola visa, além da formação de estudantes em es
 
 O curso é dividido em dois módulos, teórico e prático. O primeiro módulo é composto por aulas práticas e expositivas, baseadas no método de ensino por investigação e aprendizagem ativa, com duração de 5 dias. As aulas são ministradas majoritariamente por estudantes e pós-doutorandos do PPG em Ecologia do IB-USP, abrangendo temas de ecologia de populações, comunidades, paisagem, ecologia comportamental, evolução e princípios de conservação. Ainda há uma palestra e um momento para apresentação das linhas de pesquisa do programa de pós-graduação em Ecologia da USP. 
 
+```{r, echo=FALSE, eval=TRUE, fig.retina=3, out.width="90%", fig.align="center"}
+knitr::include_graphics(here::here("figs", "aula_modulo1.jpg"))
+```
+
 
 ## Módulo 2 - Prática em ecologia
 
 O segundo módulo mescla uma semana de aulas com aprendizagem ativa. As aulas abrangem uma introdução ao método científico, com tópicos em ecologia como ciência, ferramentas de pesquisa bibliográfica, delineamento experimental e análise estatística. Após as aulas os estudantes tem duas semanas de atividades práticas dentro da universidade, buscando ensinar e aplicar os conceitos aprendidos através do desenvolvimento de um projeto de pesquisa em ecológica. Este projeto envolve todas as fases de uma pesquisa científica, desde o delineamento amostral, a coleta, análise de dados e apresentação dos resultados.  
 
-## Os projetos
-
-Nesta edição (6ª EcoEscola) decidimos compartilhar os resumos dos projetos desenvolvidos durante o Módulo 2 acreditando que este material irá servir para duas finalidades principais. Primeiro, para a divulgação dos trabalhos científicos realizados pelos estudantes. Segundo, para que possa fornecer inspiração para práticas de pesquisa e ensino em ecologia.
+```{r, echo=FALSE, eval=TRUE, fig.retina=3, out.width="90%", fig.align="center"}
+knitr::include_graphics(here::here("figs", "aula_modulo2.jpg"))
+```
 
 ## Ensino por investigação
 
+[textinho da Gabi]
 
 # Organização
 
@@ -129,6 +134,34 @@ Pos-doutorando no LAGE-USP e doutorado em Ecologia na UNAM (México)
 > Estou interessado no projeto porque gosto de fazer ecologia e divulgação da ecologia de fungos. Achei muito interessante a dinâmica da EcoEscola, garantindo uma experiência incrível.
 
 
-## Participantes da 6ª EcoEscola
+# Participantes da 6ª EcoEscola
 
-A 6ª 
+A 6ª EcoEscola contou com a participação de XX estudantes de XX Universidades do Brasil. Dentre os participantes tivemos XX professores no primeiro módulo do curso, e XX no segundo módulo. A seguir a lista completa dos participantes da 6ª EcoEscola
+
+# Os projetos
+
+Nesta edição (6ª EcoEscola) decidimos compartilhar os resumos dos projetos desenvolvidos durante o Módulo 2 acreditando que este material irá servir para duas finalidades principais. Primeiro, para a divulgação dos trabalhos científicos realizados pelos estudantes. Segundo, para que possa fornecer inspiração para práticas de pesquisa e ensino em ecologia. 
+
+Os estudantes foram divididos em cinco grupos. Cada grupo ficou responsável pelo desenvolvimento de um projeto proposto por um orientador. Os projetos a serem desenvolvidos durante o módulo 2 foram selecionados a partir de um conjunto de propostas enviadas por estudantes de mestrado e doutorado que demonstraram interesse em orientar durante a fase prática da EcoEscola. Cinco projetos foram selecionados baseado na sua executabilidade, complementariedade de temas e clareza das questõdes propostas. Estes projetos foram discutidos previamente entre os membros da comissão organizadora e ajustados em conjunto com os orientadores de cada grupo. Os grupos e seus orientadores foram os seguintes:
+
+```{r, echo=FALSE, eval=TRUE, fig.retina=3,}
+knitr::include_graphics(here::here("figs", "grupos_modulo2.png"))
+```
+Grupos e orientadores da 6ª EcoEscola
+
+Os estudantes realizaram todas as fases do projeto de pesquisa, incluindo a coleta de dados, análises, escrita de resumo e apresentação.
+
+```{r, echo=FALSE, eval=TRUE, fig.retina=3, out.width="70%", fig.align="center"}
+knitr::include_graphics(here::here("figs", "coleta1.jpg"))
+```
+Coleta de dados
+
+```{r, echo=FALSE, eval=TRUE, fig.retina=3, out.width="70%", fig.align="center"}
+knitr::include_graphics(here::here("figs", "coleta2.jpg"))
+```
+
+
+```{r, echo=FALSE, eval=TRUE, fig.retina=3, out.width="70%", fig.align="center"}
+knitr::include_graphics(here::here("figs", "apresentacao1.jpg"))
+```
+Apresentação dos resultados
