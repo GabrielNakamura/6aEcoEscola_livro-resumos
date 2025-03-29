@@ -1,7 +1,4 @@
 # Introdução
-```{r}
-
-```
 
 Este livro contém os resumos dos trabalhos realizados durante a 6ª EcoEscola. 
    Esta é a primeira iniciativa de organização dos resumos. Pretendemos que este
@@ -14,9 +11,124 @@ Este livro contém os resumos dos trabalhos realizados durante a 6ª EcoEscola.
    
 ## A EcoEscola
 
-Descrever o que é a ecoescola
+A Escola de Ecologia da USP (EcoEscola) é um curso teórico-prático de pesquisa em Ecologia, que abrange tópicos de ecologia geral e fundamentação da metodologia científica, sendo um evento totalmente organizado majoritariamente pelos alunos do Programa de Pós-Graduação em Ecologia da Universidade de São Paulo (PPGE-USP).
+
+## Por que a EcoEscola não é só mais um curso teórico-prático em ecologia
+
+Mais um curso de Ecologia? Os cursos que aliam teoria e prática em ecologia são comuns atualmente. A EcoEscola também visa oferecer tanto ensino quanto uma experiência de prática em pesquisa, porém, o diferencial é que o foco da EcoEscola não está apenas na formação de estudantes. 
+
+Desde o seu princípio a EcoEscola visa, além da formação de estudantes em estágios finais da graduação, a complementação da formação para professores de biologia da rede pública. Outro diferencial da EcoEscola é a possibilidade para que pós-graduandos possam adquirir experiência didática ao ministrar aulas. Para tanto, neste ano foi oferecido um workshop para introdução ao método de ensino por investigação, ministrado pela professora (Daniela Lopes Scarpa)[], proporcionando aos professores ministrantes uma base conceitual e prática para a elaboração de aulas que vão além da simples exposição de conteúdos e temas para os estudantes. As aulas são preparadas seguindo o método de ensino por investigação e a comissão organizadora participa ativamente na elaboração do plano de aula juntamente com os professores.
+
+## Modulo teórico - ensino por investigação
+
+O curso é dividido em dois módulos, teórico e prático. O primeiro módulo é composto por aulas práticas e expositivas, baseadas no método de ensino por investigação e aprendizagem ativa, com duração de 5 dias. As aulas são ministradas majoritariamente por estudantes e pós-doutorandos do PPG em Ecologia do IB-USP, abrangendo temas de ecologia de populações, comunidades, paisagem, ecologia comportamental, evolução e princípios de conservação. Ainda há uma palestra e um momento para apresentação das linhas de pesquisa do programa de pós-graduação em Ecologia da USP. 
+
+
+## Módulo 2 - Prática em ecologia
+
+O segundo módulo mescla uma semana de aulas com aprendizagem ativa. As aulas abrangem uma introdução ao método científico, com tópicos em ecologia como ciência, ferramentas de pesquisa bibliográfica, delineamento experimental e análise estatística. Após as aulas os estudantes tem duas semanas de atividades práticas dentro da universidade, buscando ensinar e aplicar os conceitos aprendidos através do desenvolvimento de um projeto de pesquisa em ecológica. Este projeto envolve todas as fases de uma pesquisa científica, desde o delineamento amostral, a coleta, análise de dados e apresentação dos resultados.  
+
+## Os projetos
+
+Nesta edição (6ª EcoEscola) decidimos compartilhar os resumos dos projetos desenvolvidos durante o Módulo 2 acreditando que este material irá servir para duas finalidades principais. Primeiro, para a divulgação dos trabalhos científicos realizados pelos estudantes. Segundo, para que possa fornecer inspiração para práticas de pesquisa e ensino em ecologia.
 
 ## Ensino por investigação
 
-## Os projetos 
 
+# Organização
+
+A EcoEscola só existe graças ao esforço coletivo e voluntário dos alunos da pós graduação em ecologia da Universidade de São Paulo. As três semanas de curso são resultado de um ano inteiro de programação realizada pela comissão da EcoEscola. Nesta 6ª edição o curso contou com 10 integrantes. 
+
+```{r, echo=FALSE, eval=TRUE, fig.retina=3, out.width="50%", fig.align="center"}
+knitr::include_graphics(here::here("figs", "arthur_picture.png"))
+
+```
+**Arthur Lupinetti**
+
+Doutorando e mestre em Ecologia no Laboratório de Ecologia e Conservação da USP, graduado em Ciências Biológicas e Engenharia Ambiental e Urbana na UFABC
+
+> “Participei como aluno da quarta EcoEscola, o que foi um grande incentivo para ingressar no mestrado em ecologia. Quando a organização da quinta edição iniciou, não tive duvida em participar da comissão”
+
+
+```{r, echo=FALSE, eval=TRUE, fig.retina=3, out.width="50%", fig.align="center"}
+knitr::include_graphics(here::here("figs", "bianca_picture.png"))
+
+```
+
+**Bianca Neves**
+
+Mestranda em Ecologia no Laboratório de Ecologia de Paisagem e Conservação na USP, fez graduação em Ciências Biológicas na UFES
+
+> “Conheci o projeto na minha semana inaugural do mestrado e logo quis fazer parte dessa proposta de utilizar uma abordagem ativa de conhecimento para transformar um curto período de tempo em aprendizado e amadurecimento intenso na trajetória acadêmica”
+
+```{r, echo=FALSE, eval=TRUE, fig.retina=3, out.width="50%", fig.align="center"}
+knitr::include_graphics(here::here("figs", "doug_picture.png"))
+```
+**Douglas Cirino**
+
+Mestre e Doutorando no LEPaC (Lab. de Ecologia da Paisagem e Conservação). Bacharel em Ciência e Tecnologia e Bacharel em Biologia pela UFABC
+
+> “Eu participei da EcoEscola como aluno quando estava na graduação e foi uma das melhores experiências para minha carreira. Já estive em outra comissão de organização e acho que o projeto merece continuar oferecendo a oportunidade que tive para mais pessoas!”
+
+```{r, echo=FALSE, eval=TRUE, fig.retina=3, out.width="50%", fig.align="center"}
+knitr::include_graphics(here::here("figs", "gabriel_picture.png"))
+```
+**Gabriel Garcia**
+
+Doutorando em ecologia pela USP. Mestre em Ecologia pela UnB e Bacharel em Biologia pela UFRN
+
+> Participo da EcoEscola porque acredito ser uma oportunidade de unir minha paixão pela ecologia com o desejo de ensinar. Valorizo poder contribuir para a formação dos estudantes, algo que vivenciei em edições anteriores do evento, onde pude ensinar e aprender com pessoas de todo o país, enriquecendo meus próprios conhecimentos.
+
+
+```{r, echo=FALSE, eval=TRUE, fig.retina=3, out.width="50%", fig.align="center"}
+knitr::include_graphics(here::here("figs", "naka_picture.png"))
+```
+**Gabriel Nakamura**
+
+Pós-doutorando no Laboratório de Macroevolução e Macroecologia - USP
+
+> Sou licenciado em Biologia, e o ensino sempre ocupou uma parte importante e prazerosa na minha carreira acadêmica. Vejo na EcoEscola uma oportunidade para que eu possa contribuir na formação de estudantes em Ecologia.
+
+```{r, echo=FALSE, eval=TRUE, fig.retina=3, out.width="50%", fig.align="center"}
+knitr::include_graphics(here::here("figs", "gabi_picture.png"))
+```
+**Gabriela Longo**
+
+Mestranda do Programa Interunidades no Ensino de Ciências (PIEC-USP).
+
+> Gosto muito de projetos de extensão universitária, e acredito que o ensino, a pesquisa e a extensão de fato só fazem sentido se caminharem juntos. Vejo na EcoEscola uma oportunidade de pensar e atuar nessas três esferas. 
+
+
+```{r, echo=FALSE, eval=TRUE, fig.retina=3, out.width="50%", fig.align="center"}
+knitr::include_graphics(here::here("figs", "lucas_picture.png"))
+```
+**Lucas Freitas**
+
+Mestre e atual Doutorando em Ecologia no Laboratório de Ecologia Teórica USP
+
+> "Me interessei pelo projeto pelo seu caráter de divulgação da Ecologia como ciência em seus mais diversos aspectos.”
+
+```{r, echo=FALSE, eval=TRUE, fig.retina=3, out.width="50%", fig.align="center"}
+knitr::include_graphics(here::here("figs", "pepe_picture.png"))
+```
+**Matheus Pepe**
+
+Mestre em Ecologia no Laboratório de Ecologia de Florestas Tropicais.
+
+> Eu sempre gostei de fazer parte de vários projetos de extensão universitária no bacharelado. A EcoEscola foi mais uma oportunidade pra não só conseguir participar do meio universitário nesse quesito, mas também oferecer uma experiência legal para outros alunos de como a Ecologia é um campo extremamente enriquecedor.
+
+
+```{r, echo=FALSE, eval=TRUE, fig.retina=3, out.width="50%", fig.align="center"}
+knitr::include_graphics(here::here("figs", "andres_picture.png"))
+```
+
+**Andres Arguelles**
+
+Pos-doutorando no LAGE-USP e doutorado em Ecologia na UNAM (México)
+
+> Estou interessado no projeto porque gosto de fazer ecologia e divulgação da ecologia de fungos. Achei muito interessante a dinâmica da EcoEscola, garantindo uma experiência incrível.
+
+
+## Participantes da 6ª EcoEscola
+
+A 6ª 

@@ -1,6 +1,6 @@
 --- 
 title: "6ª EcoEscola: livro de resumos"
-author: "Gabriel Nakamura"
+author: ""
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
