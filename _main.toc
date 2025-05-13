@@ -1,0 +1,15 @@
+\contentsline {chapter}{\numberline {1}Sobre}{5}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Introdução}{7}{chapter.2}%
+\contentsline {section}{\numberline {2.1}A EcoEscola}{7}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Por que a EcoEscola não é só mais um curso teórico-prático em ecologia}{7}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Modulo teórico - ensino por investigação}{8}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Módulo 2 - Prática em ecologia}{8}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Ensino por investigação}{9}{section.2.5}%
+\contentsline {chapter}{\numberline {3}Organização}{11}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Participantes da 6ª EcoEscola}{17}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Os projetos}{19}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Cobertura e dominância de samambaias epífitas em \emph {Tipuana tipu}}{23}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Efeito da paisagem na comunidade de Euglossini em diferentes fragmentos}{25}{chapter.7}%
+\contentsline {chapter}{\numberline {8}O efeito da disponibilidade de recursos na distribuição de galhas foliares}{27}{chapter.8}%
+\contentsline {chapter}{\numberline {9}A influência da escolha do recurso alimentar sobre o fitness em besouros brocadores}{29}{chapter.9}%
+\contentsline {chapter}{\numberline {10}Vizinhar ou não vizinhar, eis a questão}{31}{chapter.10}%
